@@ -1,0 +1,3 @@
+content abbrrMe jar:chrome/abbrrMe.jar!/content/
+
+overlay chrome://browser/content/browser.xul chrome://abbrrMe/content/abbrrMe.xul

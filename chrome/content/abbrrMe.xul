@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<overlay id="Scrapper-Overlay"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://abbrrMe/content/abbrrMe.js" />
+
+
+	<popup id="contentAreaContextMenu">
+		<menuseparator />
+		<menuitem id="abbrrme-menu" label="AbbrrMe!" oncommand="abbrrMe()" />
+		<menuitem id="abbrrme-link" label="Abbrr This Link!" oncommand="abbrrLink()" />
+	</popup>	
+	
+
+</overlay>
